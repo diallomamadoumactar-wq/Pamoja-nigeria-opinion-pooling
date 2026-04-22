@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pamoja Nigeria — 2025 Opinion Poll on Abortion in Southwest Nigeria</title>
+<meta name="description" content="Findings from a regionally representative survey of 1,200 adults across Southwest Nigeria on abortion knowledge, attitudes, stigma, media habits, and the Persuadable Middle." />
+<meta property="og:title" content="Pamoja Nigeria — 2025 Opinion Poll" />
+<meta property="og:description" content="What 1,200 Nigerians told us about abortion, silence, and change." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50,8 C58,8 64,12 68,18 C72,22 74,28 76,34 C78,40 80,48 78,56 C76,62 72,68 66,72 C62,76 58,80 56,86 C54,92 50,94 46,90 C42,86 40,80 38,74 C34,72 30,68 28,62 C26,56 24,50 26,44 C28,38 32,32 36,28 C38,22 42,16 46,12 C48,10 50,8 50,8 Z" fill="none" stroke="#e62b67" stroke-width="3.5"/>
+        <path d="M82,22 L84,32 L94,34 L84,36 L82,46 L80,36 L70,34 L80,32 Z" fill="#f8c501"/>
+      </svg>
+      <span class="nm">Pamoja</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">Menu</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#findings">Key Findings</a>
+      <a href="#knowledge">Knowledge</a>
+      <a href="#attitudes">Attitudes</a>
+      <a href="#persuadable">Persuadable Middle</a>
+      <a href="#media">Media Habits</a>
+      <a href="#recommendations">What To Do</a>
+      <a href="#downloads">Download</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="wrap hero-inner">
+    <span class="hero-eyebrow"><span class="dot"></span>Pamoja Nigeria · Opinion Poll · 2025</span>
+    <h1>What 1,200 Nigerians told us about <span class="accent-yellow">abortion</span>, <span class="accent-pink">silence</span>, and <span class="accent-yellow">change</span>.</h1>
+    <p class="hero-sub">A regionally representative survey across the six states of Southwest Nigeria — measuring what people know, what they believe, what they watch, and where the room to shift opinions actually lives.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <div class="lbl">Sample Size</div>
+        <div class="val">1,200 adults</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="lbl">Geographic scope</div>
+        <div class="val">6 SW states</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="lbl">Method</div>
+        <div class="val">Door-to-door (CAPI)</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="lbl">Fieldwork</div>
+        <div class="val">May–June 2025</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ TLDR ============ -->
+<section class="tldr" id="findings">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">In one minute</span>
+      <h2 class="section-title">Four numbers that should reshape the conversation.</h2>
+      <p class="section-lede">If you read nothing else, read these. They define both the size of the problem and the size of the opportunity for civil society in Nigeria.</p>
+    </div>
+    <div class="tldr-grid">
+      <div class="tldr-card">
+        <svg class="star" viewBox="0 0 100 100"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#49267a"/></svg>
+        <div class="tldr-num">68%</div>
+        <div class="tldr-lbl">don't know how to find credible sexual & reproductive health information.</div>
+      </div>
+      <div class="tldr-card pink">
+        <svg class="star" viewBox="0 0 100 100"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#e62b67"/></svg>
+        <div class="tldr-num">37%</div>
+        <div class="tldr-lbl">don't know that abortion is legal even to save the life of a pregnant woman.</div>
+      </div>
+      <div class="tldr-card yellow">
+        <svg class="star" viewBox="0 0 100 100"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#f8c501"/></svg>
+        <div class="tldr-num">68%</div>
+        <div class="tldr-lbl">are open to legalizing abortion in cases of fetal anomaly.</div>
+      </div>
+      <div class="tldr-card pink">
+        <svg class="star" viewBox="0 0 100 100"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#e62b67"/></svg>
+        <div class="tldr-num">32%</div>
+        <div class="tldr-lbl">are <strong>persuadable</strong> — their opinions can shift with the right story, from the right voice.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY THIS MATTERS ============ -->
+<section>
+  <div class="wrap">
+    <div class="twocol">
+      <div>
+        <span class="section-eyebrow">Why this study matters</span>
+        <h2 class="section-title">Behind every statistic is a Nigerian woman making a decision in the dark.</h2>
+        <p>Around the world, roughly 73 million pregnancies end in abortion each year. Nearly half of those — 45% — are unsafe. In sub-Saharan Africa the figure rises to 77% (Bankole et al., 2020), and the region carries close to 70% of global maternal deaths.</p>
+        <p>Nigeria is the most populous country on the continent. Abortion here is illegal except to save the life of the pregnant woman, yet roughly 4.6% of women of reproductive age undergo a termination each year — close to <strong>2 million abortions annually</strong> (Bell et al., 2020), most of them unsafe.</p>
+        <p>The Pamoja project — coordinated by RAES across nine African countries — works on four pillars: self-managed abortion support, advocacy, strategic litigation, and strategic communication. This poll exists to make that fourth pillar sharper, more honest, and more effective in Nigeria.</p>
+      </div>
+      <div>
+        <div class="bigstat">
+          <div class="bigstat-num">~2M</div>
+          <div class="bigstat-text">
+            <h3>unsafe abortions every year in Nigeria</h3>
+            <p>Most happen in silence — invisible to law, to data, and often to families. The cost is paid in lives, fertility, and futures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHODOLOGY ============ -->
+<section class="tight" style="background: var(--paper-2);">
+  <div class="wrap">
+    <span class="section-eyebrow">How the data was gathered</span>
+    <h2 class="section-title">A method designed for a sensitive conversation.</h2>
+    <p class="section-lede">Edge Research Services (ERS) used a stratified multistage probability sample. Trained enumerators conducted face-to-face interviews in English or Yoruba — because for a topic this loaded, the medium matters as much as the question.</p>
+    <div class="method-grid">
+      <div class="method-item">
+        <div class="num">1,200</div>
+        <div class="lbl">Adult respondents</div>
+        <div class="desc">Aged 18–65, mean age 33 years.</div>
+      </div>
+      <div class="method-item">
+        <div class="num">6</div>
+        <div class="lbl">States covered</div>
+        <div class="desc">Lagos, Ogun, Oyo, Ondo, Osun, Ekiti.</div>
+      </div>
+      <div class="method-item">
+        <div class="num">12</div>
+        <div class="lbl">Days of fieldwork</div>
+        <div class="desc">May 28 – June 13, 2025.</div>
+      </div>
+      <div class="method-item">
+        <div class="num">94%</div>
+        <div class="lbl">Response rate</div>
+        <div class="desc">Door-to-door, in-person, oral interviews via CAPI.</div>
+      </div>
+      <div class="method-item">
+        <div class="num">69</div>
+        <div class="lbl">Survey items</div>
+        <div class="desc">Including the validated SABAS stigma sub-scales (Ipas).</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KNOWLEDGE GAPS ============ -->
+<section id="knowledge">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">Finding 1 — Knowledge</span>
+      <h2 class="section-title">People are getting the law wrong — in both directions.</h2>
+      <p class="section-lede">In Nigeria, abortion is legally permitted only to save the life of the pregnant woman. But more than a third of respondents don't know that. And on every other circumstance — fetal anomaly, incest, rape, mental and physical health — most people wrongly believe abortion is already legal. This double error is dangerous in opposite ways.</p>
+    </div>
+
+    <div class="chart-block">
+      <h3>What people <em>think</em> the law allows vs. reality</h3>
+      <p class="chart-caption">Percentage of respondents who incorrectly identify the legal status of abortion under each circumstance. Only the first item is actually legal in Nigeria.</p>
+      <div class="chart-canvas-wrap tall">
+        <canvas id="chartKnowledge"></canvas>
+      </div>
+    </div>
+
+    <div class="twocol-3-2" style="margin-top: 56px;">
+      <div>
+        <h3 class="sub-h">Two errors, two consequences</h3>
+        <p><strong>The first error is fatal.</strong> 37% of respondents do not know that abortion is legal to save a woman's life — meaning women in life-threatening pregnancies may resign themselves to dying, or seek out unsafe back-channel abortions, when a legal option exists.</p>
+        <p><strong>The second error is a brake on advocacy.</strong> When 49% of people believe abortion is already legal in cases of fetal anomaly, why would they push for reform? The false sense that the law already covers these cases creates what researchers call a "chilling effect" on organising — you can't fight for what you think you already have.</p>
+        <div class="why-it-matters">
+          <span class="lbl">★ Why it matters</span>
+          <p>Communication can't only push for new rights. It also has to clarify what already exists — and where the gap between people's will and the law's reach is widest.</p>
+        </div>
+      </div>
+      <div>
+        <div class="fact-grid" style="grid-template-columns: 1fr;">
+          <div class="fact pink">
+            <div class="fact-stat">68%</div>
+            <div class="fact-label">don't know where to find credible SRH information</div>
+            <div class="fact-note">Older respondents were significantly more likely to admit this gap.</div>
+          </div>
+          <div class="fact">
+            <div class="fact-stat">TV</div>
+            <div class="fact-label">viewers scored higher on knowledge — the only demographic factor that did</div>
+            <div class="fact-note">Not gender, not age, not education, not religiosity. Just TV.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ATTITUDES ============ -->
+<section style="background: var(--paper-2);" id="attitudes">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">Finding 2 — Attitudes</span>
+      <h2 class="section-title">The public is more open than the law lets on.</h2>
+      <p class="section-lede">Despite intense stigma, large majorities support legalizing abortion in cases of fetal anomaly, incest, rape, and risk to a woman's life. Compared to earlier national polls, sentiment has shifted meaningfully toward openness — particularly in the southwest.</p>
+    </div>
+
+    <div class="chart-block">
+      <h3>Support for legalizing abortion, by circumstance</h3>
+      <p class="chart-caption">Combined "Yes" + "Don't know" — i.e. respondents who do <em>not</em> oppose legalization. The non-opposition rate is the realistic ceiling for reform.</p>
+      <div class="chart-canvas-wrap">
+        <canvas id="chartAttitudes"></canvas>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>"Public support for legal termination of life-threatening pregnancies is extraordinarily high — 78% in favour. And yet women with dangerous pregnancies must navigate two independent doctors' opinions in less than twelve weeks. The disconnect between people's will and structural access is itself a site for action."</p>
+      <span class="cite">— RAES / Pamoja, 2025 Opinion Poll Report</span>
+    </div>
+
+    <div class="twocol" style="margin-top: 48px;">
+      <div>
+        <h3 class="sub-h">Who tends to support legal access</h3>
+        <p>Three predictors emerge consistently across the six globally accepted circumstances:</p>
+        <ul class="bare-list">
+          <li><span class="plus">+</span><span><strong>Tertiary education</strong> — college-educated respondents are significantly more supportive than those with secondary education.</span></li>
+          <li><span class="plus">+</span><span><strong>Lower religiosity</strong> — non-religious respondents are more supportive than the moderately religious.</span></li>
+          <li><span class="plus">+</span><span><strong>Non-listeners of radio</strong> — radio listeners are highly significantly more restrictive, possibly reflecting an older, more religious audience profile.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sub-h">Where stigma still lives (SABAS)</h3>
+        <p>Using two validated sub-scales of Ipas's Stigmatizing Attitudes, Beliefs and Actions Scale, four predictors emerge for higher stigma:</p>
+        <div class="pred-grid">
+          <div class="pred-pill">Older</div>
+          <div class="pred-pill">More religious</div>
+          <div class="pred-pill">Secondary educated</div>
+          <div class="pred-pill">Radio listeners</div>
+        </div>
+        <p class="pred-note"><strong>One striking finding:</strong> women were significantly more likely than men to support excluding and discriminating against a woman who has had an abortion. Internalized stigma matters — and it shapes where allies can be found.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSUADABLE MIDDLE ============ -->
+<section id="persuadable">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">Finding 3 — The Persuadable Middle</span>
+      <h2 class="section-title">One in three Nigerians is neither for nor against. They are the strategic core.</h2>
+      <p class="section-lede">"Persuadables" (PMs) are respondents whose knowledge is partial and whose attitudes sit in neutral or near-neutral territory on the SABAS scales. They are not strangers to be converted — they are neighbours to be engaged.</p>
+    </div>
+
+    <!-- ============ CONCEPT EXPLANATION ============ -->
+    <div class="concept-box">
+      <div class="concept-eyebrow">Where the concept comes from</div>
+      <h3 class="concept-title">Mobilise the base. Persuade the persuadables. Don't waste energy on the opposition.</h3>
+      <p class="concept-text">The "persuadable middle" is a foundational idea in advocacy and behaviour-change communication, popularised by organisers like <strong>George Lakey</strong> (the Spectrum of Allies) and <strong>Anat Shenker-Osorio</strong> ("fire up the base, persuade the persuadables, alienate the opposition"). The principle is simple: in any society, opinion on a contested issue is rarely binary. It sits on a spectrum — from active supporters at one end, to active opponents at the other, with several layers of soft support, neutrality, and soft opposition in between.</p>
+      <p class="concept-text">Trying to convert hardline opponents wastes resources. Preaching to the already-converted base feels good but doesn't move the needle. The actionable opportunity is the layer of <strong>passive allies, neutrals, and passive opponents</strong> — the persuadables — whose position is not yet locked in. Move enough of them, and the social norm shifts.</p>
+    </div>
+
+    <!-- ============ SPECTRUM SCHEMA (SVG) ============ -->
+    <figure class="spectrum-figure">
+      <figcaption class="spectrum-caption">The Spectrum of Allies — adapted from Lakey, applied to abortion in Southwest Nigeria.</figcaption>
+
+      <div class="spectrum-svg-wrap">
+        <svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spectrum of Allies showing where the Persuadable Middle sits.">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#49267a"/>
+              <stop offset="20%" stop-color="#6b3fa5"/>
+              <stop offset="40%" stop-color="#e62b67"/>
+              <stop offset="60%" stop-color="#e62b67"/>
+              <stop offset="80%" stop-color="#aa3050"/>
+              <stop offset="100%" stop-color="#5a1c33"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Title row -->
+          <text x="600" y="32" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="800" font-size="18" fill="#49267a">From active support &#8594; active opposition</text>
+
+          <!-- Spectrum bar -->
+          <rect x="60" y="60" width="1080" height="46" rx="23" fill="url(#grad1)"/>
+
+          <!-- 5 segment labels under the bar -->
+          <g font-family="Montserrat, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF" text-anchor="middle">
+            <text x="168" y="89">ACTIVE BASE</text>
+            <text x="384" y="89">PASSIVE ALLIES</text>
+            <text x="600" y="89">NEUTRAL</text>
+            <text x="816" y="89">PASSIVE OPPOSITION</text>
+            <text x="1032" y="89">ACTIVE OPPOSITION</text>
+          </g>
+
+          <!-- Segment dividers (subtle white lines) -->
+          <g stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1">
+            <line x1="276" y1="60" x2="276" y2="106"/>
+            <line x1="492" y1="60" x2="492" y2="106"/>
+            <line x1="708" y1="60" x2="708" y2="106"/>
+            <line x1="924" y1="60" x2="924" y2="106"/>
+          </g>
+
+          <!-- Persuadable Middle bracket (yellow) covering passive allies + neutral + passive opposition -->
+          <g>
+            <!-- bracket -->
+            <path d="M 280 140 L 280 130 L 920 130 L 920 140" fill="none" stroke="#f8c501" stroke-width="3" stroke-linecap="round"/>
+            <line x1="600" y1="130" x2="600" y2="120" stroke="#f8c501" stroke-width="3" stroke-linecap="round"/>
+            <!-- yellow label box -->
+            <rect x="430" y="148" width="340" height="44" rx="22" fill="#f8c501"/>
+            <text x="600" y="176" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="800" font-size="16" fill="#1a1320">&#9733;  THE PERSUADABLE MIDDLE</text>
+          </g>
+
+          <!-- Description below the yellow label -->
+          <text x="600" y="218" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#4a3f55">Their opinion is not yet locked in. Movement here shifts social norms.</text>
+
+          <!-- 3 column callouts at the bottom -->
+          <g>
+            <!-- Don't waste energy here (left) -->
+            <rect x="60" y="260" width="280" height="170" rx="14" fill="#FFFFFF" stroke="#e3d9ec" stroke-width="1"/>
+            <rect x="60" y="260" width="280" height="6" rx="3" fill="#49267a"/>
+            <text x="80" y="296" font-family="Montserrat, sans-serif" font-weight="800" font-size="12" fill="#49267a" letter-spacing="1.5">&#9733;  THE BASE  &#183;  ACTIVE SUPPORT</text>
+            <text x="80" y="324" font-family="Montserrat, sans-serif" font-weight="700" font-size="14" fill="#1a1320">Already with you.</text>
+            <foreignObject x="80" y="334" width="240" height="86">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;font-size:12.5px;color:#4a3f55;line-height:1.45;">Mobilise them as messengers, organisers, ambassadors. Don't spend your media budget convincing them &#8212; recruit them to convince others.</div>
+            </foreignObject>
+
+            <!-- Persuadable middle (centre) -->
+            <rect x="460" y="260" width="280" height="170" rx="14" fill="#FFFFFF" stroke="#f8c501" stroke-width="2"/>
+            <rect x="460" y="260" width="280" height="6" rx="3" fill="#f8c501"/>
+            <text x="480" y="296" font-family="Montserrat, sans-serif" font-weight="800" font-size="12" fill="#c89c00" letter-spacing="1.5">&#9733;  PERSUADABLES  &#183;  WHERE TO INVEST</text>
+            <text x="480" y="324" font-family="Montserrat, sans-serif" font-weight="700" font-size="14" fill="#1a1320">Movable. Mainstream. Many.</text>
+            <foreignObject x="480" y="334" width="240" height="92">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;font-size:12px;color:#4a3f55;line-height:1.4;">In Pamoja Nigeria's data, this is <strong>32% of the sample</strong>. Use trusted voices, journey stories, and content shaped to their values.</div>
+            </foreignObject>
+
+            <!-- Hardliners (right) -->
+            <rect x="860" y="260" width="280" height="170" rx="14" fill="#FFFFFF" stroke="#e3d9ec" stroke-width="1"/>
+            <rect x="860" y="260" width="280" height="6" rx="3" fill="#5a1c33"/>
+            <text x="880" y="296" font-family="Montserrat, sans-serif" font-weight="800" font-size="12" fill="#5a1c33" letter-spacing="1.5">&#9733;  ACTIVE OPPOSITION</text>
+            <text x="880" y="324" font-family="Montserrat, sans-serif" font-weight="700" font-size="14" fill="#1a1320">Locked in. Rarely move.</text>
+            <foreignObject x="880" y="334" width="240" height="86">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;font-size:12.5px;color:#4a3f55;line-height:1.45;">Don't try to convert them. Engaging them often amplifies their message and energises their base. Isolate, don't argue.</div>
+            </foreignObject>
+          </g>
+        </svg>
+      </div>
+    </figure>
+
+    <!-- ============ HOW WE DEFINED PMs ============ -->
+    <div class="define-box">
+      <div class="define-eyebrow">★ How Pamoja defined a "Persuadable" in this dataset</div>
+      <p>The Persuadable Middle isn't an abstract idea — it's a measurable segment. In this poll, a respondent was classified as a Persuadable if they met all three criteria below. Anyone outside these bounds was classified as a "Not Persuadable" (NP).</p>
+      <div class="define-grid">
+        <div class="define-item">
+          <div class="define-num">01</div>
+          <div class="define-h">Partial knowledge</div>
+          <div class="define-d">Got <strong>4 or fewer correct</strong> on the 6 knowledge items about when abortion is legally permitted.</div>
+        </div>
+        <div class="define-item">
+          <div class="define-num">02</div>
+          <div class="define-h">Not categorically opposed</div>
+          <div class="define-d"><strong>14 or fewer "No"</strong> answers across the 16 legalization circumstances asked. Pure rejection on every front excludes someone from the persuadable group.</div>
+        </div>
+        <div class="define-item">
+          <div class="define-num">03</div>
+          <div class="define-h">Neutral on stigma (SABAS)</div>
+          <div class="define-d">A <strong>mean score between 2.5 and 3.5</strong> on at least one of the two SABAS sub-scales (Negative Stereotyping or Exclusion & Discrimination). Neutrality, not approval — they have not yet hardened.</div>
+        </div>
+      </div>
+      <p class="define-result">Applying these three criteria as a binary filter identified <strong>384 Persuadables (32%)</strong> and <strong>816 Not Persuadables (68%)</strong> in the sample of 1,200.</p>
+    </div>
+
+    <!-- ============ PROFILE + WHY ============ -->
+    <div class="twocol" style="margin-top: 56px;">
+      <div>
+        <div class="pm-profile">
+          <h3>Profile of the Persuadable Middle</h3>
+          <div class="pm-headline">~28-year-old, moderately religious, secondary-educated woman or man living in a Pamoja state.</div>
+          <div class="pm-attrs">
+            <div class="pm-attr"><div class="lbl">Age (mean)</div><div class="val">~28.5 years</div></div>
+            <div class="pm-attr"><div class="lbl">Gender split</div><div class="val">52% F / 48% M</div></div>
+            <div class="pm-attr"><div class="lbl">Education</div><div class="val">64% Secondary</div></div>
+            <div class="pm-attr"><div class="lbl">Religion</div><div class="val">66% Christian / 34% Muslim</div></div>
+            <div class="pm-attr"><div class="lbl">Religiosity</div><div class="val">69% Moderately</div></div>
+            <div class="pm-attr"><div class="lbl">Urban</div><div class="val">55%</div></div>
+            <div class="pm-attr"><div class="lbl">Watches TV</div><div class="val">83%</div></div>
+            <div class="pm-attr"><div class="lbl">Listens to radio</div><div class="val">59%</div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="sub-h">Why this audience matters more than any other</h3>
+        <p>The committed opposition (the "Not Persuadables" — 68% of the sample) won't move easily, and the non-religious tertiary-educated minority is too small and too unrepresentative to drive broad social norm change.</p>
+        <p>The Persuadable Middle is large enough to matter (n = 384), demographically mainstream, and — critically — moderately religious. That last point reframes the entire communication challenge: the work isn't to argue people <em>out</em> of their faith. It's to show them models of faith that include compassion for women.</p>
+        <div class="why-it-matters">
+          <span class="lbl">★ Strategic implication</span>
+          <p>Stop framing this as "religion vs. rights." Start telling <strong>journey stories</strong> from people of faith who came to support safe abortion — modelling identification, not opposition. The more such role models exist, the more social norms shift.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ STATE TABLE ============ -->
+    <h3 class="sub-h" style="margin-top: 64px; margin-bottom: 16px;">Persuadable Middle by state — where to invest first</h3>
+    <p style="color: var(--ink-2); margin-bottom: 28px; max-width: 70ch;">State very highly significantly predicts whether a respondent is persuadable. Oyo and Osun lead — these are the states where each communication dollar reaches the most movable opinion. Ondo, by contrast, is the hardest ground.</p>
+
+    <div class="state-table-wrap">
+      <table class="state-table">
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>% Persuadable Middle</th>
+            <th>% Not Persuadable</th>
+            <th>Strategic note</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight">
+            <td><strong>Oyo</strong></td>
+            <td class="bar-cell"><div class="bar" style="width: 100%;"></div><span class="bar-val">41.0%</span></td>
+            <td>59.0%</td>
+            <td>Highest opportunity ground</td>
+          </tr>
+          <tr class="highlight">
+            <td><strong>Osun</strong></td>
+            <td class="bar-cell"><div class="bar" style="width: 98%;"></div><span class="bar-val">40.2%</span></td>
+            <td>59.8%</td>
+            <td>Strong proximity to Oyo</td>
+          </tr>
+          <tr>
+            <td>Ogun</td>
+            <td class="bar-cell"><div class="bar" style="width: 79%;"></div><span class="bar-val">32.6%</span></td>
+            <td>67.4%</td>
+            <td>Existing Pamoja state</td>
+          </tr>
+          <tr>
+            <td>Lagos</td>
+            <td class="bar-cell"><div class="bar" style="width: 76%;"></div><span class="bar-val">31.1%</span></td>
+            <td>68.9%</td>
+            <td>Existing Pamoja state · urban anchor</td>
+          </tr>
+          <tr>
+            <td>Ekiti</td>
+            <td class="bar-cell"><div class="bar" style="width: 66%;"></div><span class="bar-val">27.0%</span></td>
+            <td>73.0%</td>
+            <td>Conservative skew</td>
+          </tr>
+          <tr>
+            <td>Ondo</td>
+            <td class="bar-cell"><div class="bar" style="width: 39%;"></div><span class="bar-val">16.1%</span></td>
+            <td>83.9%</td>
+            <td>Hardest ground in the region</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEDIA HABITS ============ -->
+<section style="background: var(--paper-2);" id="media">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">Finding 4 — Media habits</span>
+      <h2 class="section-title">Where audiences actually are — and what they're hungry for.</h2>
+      <p class="section-lede">82% of Southwest Nigerians watch TV or streaming content. Most of that consumption now flows through social platforms. But radio still matters — not for everyone, but for very specific audiences.</p>
+    </div>
+
+    <div class="twocol">
+      <div>
+        <div class="chart-block" style="margin: 0;">
+          <h3>How TV/streaming content is accessed</h3>
+          <p class="chart-caption">Among the 82% who watch TV or streaming. Multiple answers possible.</p>
+          <div class="chart-canvas-wrap">
+            <canvas id="chartPlatforms"></canvas>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="chart-block" style="margin: 0;">
+          <h3>Most-watched content formats</h3>
+          <p class="chart-caption">Short-form video dominates. Reality shows underperform.</p>
+          <div class="chart-canvas-wrap">
+            <canvas id="chartFormats"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="twocol" style="margin-top: 56px;">
+      <div>
+        <h3 class="sub-h">Audiences want African content, especially comedy.</h3>
+        <p>72% of respondents agree that creators should make more shows set in Africa, vs. only 55% for shows set elsewhere. When asked open-endedly about their favourite thing to watch, 25% spontaneously named African content — Yoruba films, Nollywood, named comedians.</p>
+        <p>Reality TV is consistently the least-watched format. The ground for behaviour change content isn't drama-fatigue audiences; it's people scrolling short videos and seeking laughter, recognition, and stories that look like their lives.</p>
+      </div>
+      <div>
+        <h3 class="sub-h">Radio still matters — for who, and for what.</h3>
+        <p>59% of respondents listen to radio, dwarfed by TV/streaming (82%). But radio listeners skew older, more religious, and secondary-educated — the same profile linked to higher stigma. This is not a coincidence. Radio is where reinforcement of conservative norms happens most.</p>
+        <p>Most popular radio programming: <strong>News (63%)</strong>, <strong>Talk shows (40%)</strong>, <strong>Morning shows (35%)</strong>, then music, sports, late-night, and dramas. Top stations: Fresh FM, Wazobia FM, Adaba FM, Unique FM.</p>
+      </div>
+    </div>
+
+    <div class="banner-info">
+      <div>
+        <h3>Pamoja's outreach is registering — but reaching only 8% of residents.</h3>
+        <p>Residents of Pamoja states (Lagos, Ogun) were significantly more likely to recall abortion-rights campaigns than non-residents. Compared to CARE's recent campaign in Yobe (which celebrated 8% engagement as a win), this is a real signal — but the runway for growth is wide.</p>
+      </div>
+      <div>
+        <a href="#recommendations" class="dl-btn-light">↓ See full recommendations</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECOMMENDATIONS ============ -->
+<section id="recommendations">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-eyebrow">What to do with this</span>
+      <h2 class="section-title">Six strategic directions for partners.</h2>
+      <p class="section-lede">These are not generic best practices. Each one is anchored in a specific finding from this dataset and a specific gap in current Pamoja activity.</p>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 01</div>
+        <h4>Lead with what the law actually says.</h4>
+        <p>Before pushing reform, fix the basics. Most people don't know that abortion is legal even to save a woman's life. Visualize the law in plain language across short-form video, posters, radio drama, and clinic waiting-room content.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 02</div>
+        <h4>Mobilise the "low-hanging" reform consensus.</h4>
+        <p>Majorities don't oppose legalization for fetal anomaly (68%), incest (63%), and rape (58%). This is the ground where advocacy and litigation can build the most public support fastest, aligning with the Maputo Protocol.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 03</div>
+        <h4>Build content for short-form video first.</h4>
+        <p>57% of respondents watch short-form video. Distribute across Facebook (58%), TikTok (55%), and YouTube (52%). It's the most popular, the most accessible, and the cheapest to produce. Hour-long Nollywood-style drama remains a strong second format.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 04</div>
+        <h4>Tell journey stories from moderately religious voices.</h4>
+        <p>The Persuadable Middle is 69% moderately religious. Don't argue dogma — model evolution. First-person testimonials from imams, pastors, Catholic women, and lay believers who came to support compassion for women are the highest-leverage content type.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 05</div>
+        <h4>Lead investment with Oyo and Osun.</h4>
+        <p>These two states have the highest concentration of Persuadables (41% and 40%). Without abandoning Lagos and Ogun, expand the visible field of Pamoja activity into these states where each engagement reaches more movable minds.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-num">DIRECTION 06</div>
+        <h4>Engage women on internalised stigma — gently.</h4>
+        <p>Women showed significantly higher exclusion-and-discrimination scores than men. Reaching women's networks (faith groups, market associations, women's cooperatives) with stories of solidarity rather than confrontation is essential to shifting the social norms women themselves enforce.</p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top: 56px;">
+      <p>"Rather than push out sad stories intended to foster empathy for women who seek to end pregnancies, Pamoja should push out morality-inflected stories intended to foster admiration for the people of faith who modelled bravery and an unshakable commitment to compassion."</p>
+      <span class="cite">— Discussion section, RAES / Pamoja Opinion Poll Report 2025</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOWNLOAD ============ -->
+<section style="background: var(--purple); color: white;" id="downloads">
+  <div class="wrap">
+    <div class="dl-head">
+      <span class="section-eyebrow" style="color: var(--yellow);">Take it further</span>
+      <h2 class="section-title" style="color: white;">Download and share the brief.</h2>
+      <p class="section-lede" style="color: rgba(255,255,255,0.85);">A printable, shareable executive summary of the entire study — designed for partners and stakeholders.</p>
+    </div>
+    <div class="dl-single">
+      <div class="dl-card-large">
+        <div class="dl-eyebrow">PDF Brief · 8 pages · A4</div>
+        <h4>Pamoja Nigeria — 2025 Opinion Poll Brief</h4>
+        <p>Full synthesis with all key findings, charts, and strategic recommendations. Designed to be read, printed, and shared.</p>
+        <a href="Pamoja_Nigeria_Opinion_Poll_2025_Brief.pdf" class="dl-btn-yellow" download>↓ Download the PDF Brief</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="footer-logo">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M50,8 C58,8 64,12 68,18 C72,22 74,28 76,34 C78,40 80,48 78,56 C76,62 72,68 66,72 C62,76 58,80 56,86 C54,92 50,94 46,90 C42,86 40,80 38,74 C34,72 30,68 28,62 C26,56 24,50 26,44 C28,38 32,32 36,28 C38,22 42,16 46,12 C48,10 50,8 50,8 Z" fill="none" stroke="#e62b67" stroke-width="3.5"/>
+            <path d="M82,22 L84,32 L94,34 L84,36 L82,46 L80,36 L70,34 L80,32 Z" fill="#f8c501"/>
+          </svg>
+          <span class="nm">Pamoja</span>
+        </div>
+        <p class="tagline">Civil Society Organisations Together to Make Abortion Safe in Africa.</p>
+        <p>Pamoja is a regional, collaborative initiative working in nine sub-Saharan African countries on four pillars: self-managed abortion support, advocacy, strategic litigation, and strategic communication. RAES leads the strategic communication pillar.</p>
+      </div>
+      <div>
+        <h4>Read</h4>
+        <ul>
+          <li><a href="#findings">Key Findings</a></li>
+          <li><a href="#knowledge">Knowledge Gaps</a></li>
+          <li><a href="#attitudes">Attitudes</a></li>
+          <li><a href="#persuadable">Persuadable Middle</a></li>
+          <li><a href="#media">Media Habits</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Methodology</h4>
+        <ul>
+          <li>1,200 adults · 6 SW states</li>
+          <li>Door-to-door, CAPI</li>
+          <li>May 28 – June 13, 2025</li>
+          <li>Partner: Edge Research Services</li>
+          <li>Statistical analysis: USC Annenberg / Norman Lear Center</li>
+          <li>Validated stigma scales: Ipas SABAS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 RAES / Pamoja. Findings may be cited with attribution.</span>
+      <span>Data: Edge Research Services, May–June 2025 · Analysis: Media Impact Project, USC Annenberg</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
